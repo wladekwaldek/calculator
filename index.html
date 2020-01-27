@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+    </head>
+    <body>
+        <div class="wraper">
+            <div class="wraper2">
+            <form method="post" id="calculator">
+                <h2>Выберите сумму</h2>
+                <div class="data">
+                    <div class="tag"></div>
+                    <p>Размер займа</p>
+                    <p id="show-sum"></p>
+                </div>
+                <div class="input"><input type="range" min="10000" max="500000" step="5000" value="10000" id="sum" oninput="getSum()"></div>
+                <div class="data">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <div class="data">
+                    <p class="sign">10 000 тнг</p>
+                    <p class="sign">100 000 тнг</p>
+                    <p class="sign">500 000 тнг</p>
+                </div>
+                <div class="data">
+                    <div class="tag"></div>
+                    <p>Срок займа</p>
+                    <p id="show-term"></p>
+                </div>
+                <div class="input"><input type="range" min="3" max="12" step="1" value="3" id="term" oninput="getSum()"></div>
+                <div class="data">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <div class="data">
+                    <p class="sign">3 месяца</p>
+                    <p class="sign">7,5 месяцев</p>
+                    <p class="sign">1 год</p>
+                </div>
+                <p><input type="submit" id="submit" name="button" value="Получить деньги"></p>
+            </form>
+            </div>
+            <div class="inform">
+                <div class="data">
+                    <p>Вы берёте:</p>
+                    <p id="show-sum2"></p>
+                </div>
+                <div class="data">
+                    <p>К возврату:</p>
+                    <p id="show-sum-plus"></p>
+                </div>
+                <div class="data">
+                    <p>Дата возврата:</p>
+                    <p id="show-term2"></p>
+                </div>
+                <div class="data">
+                    <p>Ежемесячный платёж:</p>
+                    <p id="mp">1</p>
+                </div>
+                <div class="data">
+                    <p>Процентная ставка/годовых:</p>
+                    <p id="show-bet">36.5%</p>
+                </div>
+            </div>
+        </div>
+        <script src="js.js"></script>
+    </body>
+</html>

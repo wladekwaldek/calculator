@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #a7a7a7;
+    
+}
+
+.wraper {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.wraper2 {
+    background-color: #ffffff;    
+    padding: 1% 6% 6% 6%;
+}
+
+.inform div {
+   margin-top: -5%; 
+}
+
+p {
+    text-align: center;
+}
+
+#sum, #term {
+    width: 100%;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#show-sum, #show-term {
+    border-bottom: 1px solid #dddddd;
+}
+
+#show-sum-plus, #show-bet {
+    border-bottom: 1px dashed #a7a7a7;
+}
+
+.left {
+    height: 10px;
+    width: 50%;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    margin-left: 1.5%;
+}
+
+.right {
+    height: 10px;
+    width: 50%;
+    border-right: 1px solid #dddddd;
+}
+
+.sign {
+    color: #dddddd;
+    font-size: 10px;
+}
+
+.inform {
+    background-color: #eeeeee;
+    padding: 1% 6% 6% 6%;
+}
+
+#submit {
+    padding: 3%;
+    border-radius: 30px;
+    background-color: #ff7733;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 90%;
+    height: 6px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 3px solid #fff;
+    box-shadow: 0 0 2px 2px #a7a7a7;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #55ff55;
+    margin-top: -5px;
+    box-shadow: -250px 0 0 250px #55ff55;
+}
+
+input[type=range]::-moz-range-track {
+    height: 6px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;    
+}
+
+input[type=range]::-moz-range-thumb {
+    border: 3px solid #fff;
+    box-shadow: 0 0 2px 2px #a7a7a7;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #55ff55;
+}
+
+input[type="range"]::-moz-range-progress {
+        background-color: #55ff55; 
+}
+
+.tag {
+    position: absolute;
+    border-left: 5px solid #55ff55;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 21px;
+    left: -21px;
+    display: none;
+}
+    
+
+    
+    
+
+
+    
+ 
